@@ -1,12 +1,12 @@
-// Initialize both carousels with pause on hover
+// Initialize Bootstrap carousels with custom settings
 document.addEventListener('DOMContentLoaded', function () {
-  var carousels = ['#carouselMen', '#carouselWomen'];
-
-  carousels.forEach(function (id) {
-    var carouselElement = document.querySelector(id);
-    var carousel = new bootstrap.Carousel(carouselElement, {
-      interval: 5000,
-      pause: 'hover'
+    const mensCarousel = new bootstrap.Carousel('#mensCarousel', {
+        interval: 5000,
+        pause: 'hover'
     });
-  });
+
+    const womensCarousel = new bootstrap.Carousel('#womensCarousel', {
+        interval: 5000,
+        pause: 'hover'
+    });
 });
