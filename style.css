@@ -1,52 +1,53 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #FAFAFA;
-  font-family: Verdana, sans-serif;
-  color: #3D3D3D;
+/* Chrome Bar */
+.browser-chrome {
+  background-color: #eee;
+  height: 50px;
 }
 
-h1 {
-  font-family: Georgia, serif;
-  color: #C8A2C8;
-  margin-bottom: 0;
-}
-
-nav {
-  font-family: Arial, sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.nav-link.active {
-  background-color: #F4C2C2;
-  color: #3D3D3D;
-}
-
-h2 {
-  font-family: Georgia, serif;
-  margin-top: 20px;
-  color: #A7C7E7;
-}
-
-ul {
-  background-color: #FFF5E1;
-  padding: 15px;
+/* URL Input */
+.url-bar {
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  list-style-type: square;
 }
 
-footer {
-  background-color: #B2E4DB;
-  padding: 10px;
-  font-size: 14px;
+/* Header */
+.site-header {
+  background: white;
+  border-bottom: 1px solid #ccc;
 }
 
-img {
-  margin-top: 15px;
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
+.header-icons i {
+  font-size: 20px;
+}
+
+/* Logo Placeholder */
 .logo {
-  width: 120px;
-  height: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Carousel caption box */
+.caption-box {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer-bar {
+  background-color: #eee;
+}
+
+/* Carousel buttons fix */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100% 100%;
 }
