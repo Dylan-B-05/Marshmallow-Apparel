@@ -6,13 +6,14 @@
   <title>Marshmallow Apparel | Premium Activewear in Ireland</title>
   <meta name="description" content="Discover premium activewear at Marshmallow Apparel. Stylish, comfortable, and designed for performance. Shop now!">
   <meta name="keywords" content="gym, clothes, aesthetic, local">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="background-color: #FAFAFA; color: #3D3D3D; font-family: Verdana, sans-serif;">
+<body>
 
-  <header class="py-3 border-bottom">
+  <header class="py-2 border-bottom bg-blush">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="d-flex align-items-center">
         <a href="index.html">
@@ -20,48 +21,51 @@
             src="images/Logo.jpg" 
             alt="Marshmallow Apparel Logo"
             class="img-fluid"
-            style="max-height: 50px;"
+            style="max-height: 90px;"
           >
         </a>
         <nav class="ml-4">
           <ul class="nav">
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Men</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Women</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Accessories</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link nav-text text-white" href="#">Men</a></li>
+            <li class="nav-item"><a class="nav-link nav-text text-white" href="#">Women</a></li>
+            <li class="nav-item"><a class="nav-link nav-text text-white" href="#">Accessories</a></li>
+            <li class="nav-item"><a class="nav-link nav-text text-white" href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
       <div class="d-flex align-items-center">
-        <a href="#" class="text-dark mr-3" style="font-size: 1.2rem;">&#9825;</a>
-        <a href="#" class="text-dark" style="font-size: 1.2rem;">&#128717;</a>
+        <a href="#" class="text-white nav-icon"><i class="far fa-heart"></i></a>
+        <a href="#" class="text-white nav-icon ml-3"><i class="fas fa-shopping-cart"></i></a>        
       </div>
     </div>
   </header>
 
   <main class="container my-5">
-    <h1 class="text-center mb-4" style="font-family: Georgia, serif;">Premium Activewear for Every Lifestyle</h1>
-    <div class="row text-center">
-      <div class="col-md-6 mb-4">
-        <img src="images/Mens Collection.png" alt="Men’s Collection" class="img-fluid">
-        <h2 style="font-family: Georgia, serif;" class="mt-3">Men’s Collection</h2>
-        <button class="btn btn-outline-dark mt-2">SHOP NOW</button>
+    <div class="row">
+      <div class="col-md-6 mb-4 position-relative">
+        <img src="images/Mens Collection.png" alt="Men’s Collection" class="img-fluid w-100">
+        <div class="position-absolute w-100 h-100 top-0 left-0 d-flex flex-column justify-content-center align-items-center overlay-text">
+          <h2 class="text-shadow text-white">Men’s Collection</h2>
+          <button class="btn btn-lilac btn-lg mt-2">SHOP NOW</button>
+        </div>
       </div>
-      <div class="col-md-6 mb-4">
-        <img src="images/Womens Collection.png" alt="Women’s Collection" class="img-fluid">
-        <h2 style="font-family: Georgia, serif;" class="mt-3">Women’s Collection</h2>
-        <button class="btn btn-outline-dark mt-2">SHOP NOW</button>
+      <div class="col-md-6 mb-4 position-relative">
+        <img src="images/Womens Collection.png" alt="Women’s Collection" class="img-fluid w-100">
+        <div class="position-absolute w-100 h-100 top-0 left-0 d-flex flex-column justify-content-center align-items-center overlay-text">
+          <h2 class="text-shadow text-white">Women’s Collection</h2>
+          <button class="btn btn-lilac btn-lg mt-2">SHOP NOW</button>
+        </div>
       </div>
     </div>
   </main>
 
-  <footer class="text-center py-4" style="background-color: #FFF5E1;">
+  <footer class="text-center py-4 bg-mint text-dark">
     &copy; 2025 Marshmallow Apparel
   </footer>
 
-  <script src="js/jquery-3.2.1.slim.min.js"></script> 
-  <script src="js/popper.min.js"></script> 
-  <script src="js/bootstrap.min.js"></script> 
+  <script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script> 
+  <script src="bootstrap/js/popper.min.js"></script> 
+  <script src="bootstrap/js/bootstrap.min.js"></script> 
   <script src="js/script.js"></script>
 
 </body>

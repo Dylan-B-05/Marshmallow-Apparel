@@ -11,36 +11,24 @@ h1, h2 {
   color: #3D3D3D;
 }
 
-nav, .nav-link {
+.nav-text {
   font-family: Arial, sans-serif;
-  color: #3D3D3D;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.nav-link:hover {
-  color: #C8A2C8;
-}
-
-header {
-  background-color: #FFF5E1;
+.nav-icon {
+  font-size: 2.0rem;
 }
 
 header img {
-  max-height: 80px;
+  max-height: 90px;
   width: auto;
 }
 
-button.btn-outline-dark {
-  border-color: #F4C2C2;
-  color: #F4C2C2;
-}
-
-button.btn-outline-dark:hover {
-  background-color: #F4C2C2;
-  color: #3D3D3D;
-}
-
 footer {
-  background-color: #FFF5E1;
   font-family: Verdana, sans-serif;
   color: #3D3D3D;
 }
@@ -49,4 +37,42 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.overlay-text {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.text-shadow {
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.btn-lilac {
+  background-color: #C8A2C8;
+  color: #FFF5E1;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-lilac:hover {
+  background-color: #A7C7E7;
+  color: #3D3D3D;
+}
+
+.bg-blush {
+  background-color: #F4C2C2;
+}
+
+.bg-mint {
+  background-color: #B2E4DB;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: #3D3D3D;
 }
