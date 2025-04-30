@@ -8,52 +8,46 @@ body {
 
 h1, h2 {
   font-family: Georgia, serif;
-  color: #3D3D3D;
+  color: #ffffff;
+}
+
+nav {
+  font-family: Arial, sans-serif;
 }
 
 .nav-text {
-  font-family: Arial, sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
-  padding-left: 1rem;
-  padding-right: 1rem;
+}
+
+.nav-text:hover {
+  color: #FFF5E1;
 }
 
 .nav-icon {
-  font-size: 2.0rem;
-}
-
-header img {
-  max-height: 90px;
-  width: auto;
-}
-
-footer {
-  font-family: Verdana, sans-serif;
-  color: #3D3D3D;
+  font-size: 2rem;
 }
 
 img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
 
-.overlay-text {
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.text-shadow {
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
 }
 
 .btn-lilac {
   background-color: #C8A2C8;
   color: #FFF5E1;
-  border: none;
   font-weight: bold;
+  border: none;
+  padding: 8px 16px;
 }
 
 .btn-lilac:hover {
