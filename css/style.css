@@ -99,6 +99,29 @@ img {
   opacity: 0;
 }
 
+.product-frame {
+  background-color: #FFF5E1;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.image-frame {
+  background-color: #C8A2C8;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.collection-box {
+  background-color: #A7C7E7;
+  color: #FFF5E1;
+  padding: 10px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 90%;
+  margin-bottom: 10px;
+}
+
 .checkout-box {
   background-color: #C8A2C8;
   color: #FFF5E1;
