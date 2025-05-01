@@ -3,9 +3,7 @@
 <head>  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Marshmallow Apparel | Premium Activewear in Ireland</title>
-  <meta name="description" content="Discover premium activewear at Marshmallow Apparel. Stylish, comfortable, and designed for performance.">
-  <meta name="keywords" content="gym, clothes, aesthetic, local">
+  <title>Review | Marshmallow Apparel</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -35,21 +33,40 @@
     </div>
   </div>
 
-  <div class="container-fluid my-4">
-    <div class="row">
-      <div class="col-md-6 position-relative mb-4">
-        <img src="images/Mens/Mens Collection.png" alt="Men’s Collection" class="img-fluid">
-        <div class="text-overlay text-white">
-          <h2>Men’s Collection</h2>
-          <a href="mens.html"><button class="btn btn-lilac mt-2">SHOP NOW</button></a>
-        </div>
-      </div>
-      <div class="col-md-6 position-relative mb-4">
-        <img src="images/Womens/Womens Collection.png" alt="Women’s Collection" class="img-fluid">
-        <div class="text-overlay text-white">
-          <h2>Women’s Collection</h2>
-          <a href="womens.html"><button class="btn btn-lilac mt-2">SHOP NOW</button></a>
-        </div>
+  <div class="container text-center my-5">
+    <div class="p-4 bg-white border shadow-sm rounded">
+      <i class="fas fa-check-circle text-success mb-4" style="font-size: 4rem;"></i>
+      <h2 class="mb-3">Thank You for Your Order!</h2>
+      <p>Your order has been placed successfully. We'd love to hear your thoughts.</p>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <h3 class="text-center mb-4">Leave Us a Review</h3>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form onsubmit="submitReview(); return false;">
+          <div class="form-group">
+            <label for="review-name">Your Name</label>
+            <input type="text" class="form-control" id="review-name" required>
+          </div>
+          <div class="form-group mt-3">
+            <label for="review-rating">Rating</label>
+            <select class="form-control" id="review-rating" required>
+              <option value="">Choose one</option>
+              <option>⭐️</option>
+              <option>⭐️⭐️</option>
+              <option>⭐️⭐️⭐️</option>
+              <option>⭐️⭐️⭐️⭐️</option>
+              <option>⭐️⭐️⭐️⭐️⭐️</option>
+            </select>
+          </div>
+          <div class="form-group mt-3">
+            <label for="review-text">Your Review</label>
+            <textarea class="form-control" id="review-text" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lilac mt-4">Submit Review</button>
+        </form>
       </div>
     </div>
   </div>

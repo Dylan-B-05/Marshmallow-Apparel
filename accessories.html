@@ -28,7 +28,7 @@
       </div>
       <div class="col-sm-2 text-right">
         <a href="#" class="text-white nav-icon"><i class="far fa-heart"></i></a>
-        <a href="#" class="text-white nav-icon ml-3"><i class="fas fa-shopping-cart"></i></a>
+        <a href="checkout.html" class="text-white nav-icon ml-3"><i class="fas fa-shopping-cart"></i></a>
       </div>
     </div>
   </div>
@@ -53,12 +53,12 @@
             <img src="images/Accesories/Bag.png" alt="Bag" class="img-fluid default-img">
             <img src="images/Accesories/Bag Model.png" alt="Bag Model" class="img-fluid hover-img">
           </div>
-          <a href="#" onclick="alert('Added to Likes')" class="position-absolute text-danger" style="top: 10px; right: 10px;">
+          <a href="#" onclick="addToLikes()" class="position-absolute text-danger" style="top: 10px; right: 10px;">
             <i class="far fa-heart"></i>
           </a>
           <p class="mt-2 mb-1">Blush Duffle Bag</p>
           <p class="mb-1"><b>€34.99</b></p>
-          <form class="form-inline" onsubmit="alert('Item added to cart'); return false;">
+          <form class="form-inline" onsubmit="addToCart(); return false;">
             <input type="number" min="1" value="1" class="form-control form-control-sm mr-2" style="width: 60px;">
             <button type="submit" class="btn btn-lilac btn-sm">Add to Cart</button>
           </form>
@@ -71,12 +71,12 @@
             <img src="images/Accesories/Cap.png" alt="Cap" class="img-fluid default-img">
             <img src="images/Accesories/Cap Model.png" alt="Cap Model" class="img-fluid hover-img">
           </div>
-          <a href="#" onclick="alert('Added to Likes')" class="position-absolute text-danger" style="top: 10px; right: 10px;">
+          <a href="#" onclick="addToLikes()" class="position-absolute text-danger" style="top: 10px; right: 10px;">
             <i class="far fa-heart"></i>
           </a>
           <p class="mt-2 mb-1">Dusty Pink Cap</p>
           <p class="mb-1"><b>€14.99</b></p>
-          <form class="form-inline" onsubmit="alert('Item added to cart'); return false;">
+          <form class="form-inline" onsubmit="addToCart(); return false;">
             <input type="number" min="1" value="1" class="form-control form-control-sm mr-2" style="width: 60px;">
             <button type="submit" class="btn btn-lilac btn-sm">Add to Cart</button>
           </form>
@@ -89,12 +89,12 @@
             <img src="images/Accesories/Bottle.png" alt="Bottle" class="img-fluid default-img">
             <img src="images/Accesories/Bottle Model.png" alt="Bottle Model" class="img-fluid hover-img">
           </div>
-          <a href="#" onclick="alert('Added to Likes')" class="position-absolute text-danger" style="top: 10px; right: 10px;">
+          <a href="#" onclick="addToLikes()" class="position-absolute text-danger" style="top: 10px; right: 10px;">
             <i class="far fa-heart"></i>
           </a>
           <p class="mt-2 mb-1">Sage Green Bottle</p>
           <p class="mb-1"><b>€11.99</b></p>
-          <form class="form-inline" onsubmit="alert('Item added to cart'); return false;">
+          <form class="form-inline" onsubmit="addToCart(); return false;">
             <input type="number" min="1" value="1" class="form-control form-control-sm mr-2" style="width: 60px;">
             <button type="submit" class="btn btn-lilac btn-sm">Add to Cart</button>
           </form>
@@ -110,5 +110,6 @@
   <script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script> 
   <script src="bootstrap/js/popper.min.js"></script> 
   <script src="bootstrap/js/bootstrap.min.js"></script> 
+  <script src="js/scripts.js"></script>
 </body>
 </html>
