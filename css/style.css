@@ -8,7 +8,7 @@ body {
 
 h1, h2 {
   font-family: Georgia, serif;
-  color: #ffffff;
+  color: #3D3D3D;
 }
 
 nav {
@@ -18,6 +18,7 @@ nav {
 .nav-text {
   font-size: 1.2rem;
   font-weight: bold;
+  color: #3D3D3D;
 }
 
 .nav-text:hover {
@@ -25,7 +26,7 @@ nav {
 }
 
 .nav-icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 img {
@@ -70,59 +71,6 @@ img {
 .text-dark {
   color: #3D3D3D;
 }
-.product-image-hover {
-  position: relative;
-  width: 100%;
-}
-
-.product-image-hover img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease;
-}
-
-.product-image-hover .hover-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-.product-image-hover:hover .hover-img {
-  opacity: 1;
-}
-
-.product-image-hover:hover .default-img {
-  opacity: 0;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #FAFAFA;
-  color: #3D3D3D;
-  font-family: Verdana, sans-serif;
-}
-
-h1, h2 {
-  font-family: Georgia, serif;
-  color: #3D3D3D;
-}
-
-.nav-text {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #3D3D3D;
-}
-
-.nav-icon {
-  font-size: 1.5rem;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .product-image-hover {
   position: relative;
@@ -151,23 +99,25 @@ img {
   opacity: 0;
 }
 
-.btn-lilac {
+.checkout-box {
   background-color: #C8A2C8;
   color: #FFF5E1;
-  font-weight: bold;
-  border: none;
-  padding: 8px 16px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.checkout-box h2 {
+  color: #FFF5E1;
 }
 
-.btn-lilac:hover {
-  background-color: #A7C7E7;
-  color: #3D3D3D;
+
+.review-box {
+  background-color: #C8A2C8;
+  color: #FFF5E1;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.bg-blush {
-  background-color: #F4C2C2;
-}
-
-.bg-mint {
-  background-color: #B2E4DB;
+.review-box label,
+.review-box h3 {
+  color: #FFF5E1;
 }

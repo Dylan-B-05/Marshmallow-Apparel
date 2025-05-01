@@ -7,8 +7,16 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background-image: url('images/Pages/Review.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+  
 </head>
-
 <body>
 
   <div class="container-fluid bg-blush py-2">
@@ -42,31 +50,35 @@
   </div>
 
   <div class="container my-5">
-    <h3 class="text-center mb-4">Leave Us a Review</h3>
+    <div class="review-box text-center mb-4">
+      <h3>Leave Us a Review</h3>
+    </div>
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <form onsubmit="submitReview(); return false;">
-          <div class="form-group">
-            <label for="review-name">Your Name</label>
-            <input type="text" class="form-control" id="review-name" required>
-          </div>
-          <div class="form-group mt-3">
-            <label for="review-rating">Rating</label>
-            <select class="form-control" id="review-rating" required>
-              <option value="">Choose one</option>
-              <option>⭐️</option>
-              <option>⭐️⭐️</option>
-              <option>⭐️⭐️⭐️</option>
-              <option>⭐️⭐️⭐️⭐️</option>
-              <option>⭐️⭐️⭐️⭐️⭐️</option>
-            </select>
-          </div>
-          <div class="form-group mt-3">
-            <label for="review-text">Your Review</label>
-            <textarea class="form-control" id="review-text" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-lilac mt-4">Submit Review</button>
-        </form>
+        <div class="review-box">
+          <form onsubmit="submitReview(); return false;">
+            <div class="form-group">
+              <label for="review-name">Your Name</label>
+              <input type="text" class="form-control" id="review-name" required>
+            </div>
+            <div class="form-group mt-3">
+              <label for="review-rating">Rating</label>
+              <select class="form-control" id="review-rating" required>
+                <option value="">Choose one</option>
+                <option>⭐️</option>
+                <option>⭐️⭐️</option>
+                <option>⭐️⭐️⭐️</option>
+                <option>⭐️⭐️⭐️⭐️</option>
+                <option>⭐️⭐️⭐️⭐️⭐️</option>
+              </select>
+            </div>
+            <div class="form-group mt-3">
+              <label for="review-text">Your Review</label>
+              <textarea class="form-control" id="review-text" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-light mt-4">Submit Review</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
